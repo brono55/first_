@@ -67,7 +67,7 @@ a {
     display: flex;
 }
 .hd_fixed .hd_content .hd_logo{
-    width: 149px;
+    width: 150px;
     height: 46px;
     background-image: url(../img/logo.png);
     background-size:cover;
@@ -75,22 +75,47 @@ a {
 }
 .hd_fixed .hd_content .gnb_menu{
     display: flex;
-    margin-left:100px;
+    margin-left:250px;
 }
 .hd_fixed .hd_content .gnb_menu ul{
-    width:120px;
-    padding-top: 14px;
+    width:100px;
+    padding-top: 20px;
     font-weight: bold;
-    font-size:17px;
+    font-size:15px;
 }
+/*
+.hd_fixed .hd_content .gnb_menu > ul::after{
+  width:1px;
+  height:20px;
+  background-color:rgba(0,0,0,0.4);
+  display:block;
+  content:"";
+  position:absolute;
+  top:45px;
+  transition:0.4s;
+}
+*/
+/*
+.hd_fixed .hd_content .gnb_menu > ul:hover::after{
+    width: 100%;
+}
+*/
 .hd_fixed >.hd_content > .gnb_menu > ul > a:hover{
-    color:sienna;
-    background-color:antiquewhite;
-    widows: 100%;
+    color:tan;
 }
+
 .dp2 ul li{
     width: 100%;
-    font-size:11px;
+    font-size:12px;
     line-height: 35px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.hd_fixed >.hd_content > .gnb_menu > ul >.dp2{
+    display: none;
+}
+.hd_fixed >.hd_content > .gnb_menu > ul:hover > .dp2{
+    display: block;
+}
+.hd_fixed >.hd_content > .gnb_menu > ul >.dp2 > ul > li:hover{
+    color:chocolate;
 }
