@@ -28,11 +28,12 @@ a {
 }
 .hd_flex .area_flex{
     max-width: 1170px;
+    height: 30px;
     margin:0 auto;
     width: 100%;
 }
 .hd_flex .area_flex ul{
-    width:200px;
+    width:220px;
     float:right;
     position: relative;
 }
@@ -41,12 +42,55 @@ a {
     font-weight: bold;
     padding: 5px 14px 5px 14px;
     display: inline-block;
-    text-align: center;
     box-sizing: border-box;
     height: 30px;
+    position: relative;
+    vertical-align: middle;
+    float:left;
 }
 .hd_flex .area_flex ul .sns_insta{
     width:14px;
     height: 14px;
-    font-size:15px;
+    font-size:14px;
+}
+.hd_flex .area_flex ul .sns_facebook{
+    width:14px;
+    height: 14px;
+    font-size:13px;
+}
+/*-------header / hd_flex-//---*/
+.hd_fixed .hd_content{
+    width: 1170px;
+    height: 90px;
+    background-color:#fff;
+    margin:0 auto;
+    display: flex;
+}
+.hd_fixed .hd_content .hd_logo{
+    width: 149px;
+    height: 46px;
+    background-image: url(../img/logo.png);
+    background-size:cover;
+    background-position: center;
+}
+.hd_fixed .hd_content .gnb_menu{
+    display: flex;
+    margin-left:100px;
+}
+.hd_fixed .hd_content .gnb_menu ul{
+    width:120px;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size:17px;
+}
+.hd_fixed >.hd_content > .gnb_menu > ul > a:hover{
+    color:sienna;
+    background-color:antiquewhite;
+    widows: 100%;
+}
+.dp2 ul li{
+    width: 100%;
+    font-size:11px;
+    line-height: 35px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
