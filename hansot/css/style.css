@@ -1,4 +1,4 @@
-* {
+body,ul,li{
   padding: 0;
   margin: 0;
 }
@@ -31,6 +31,7 @@ a {
     height: 30px;
     margin:0 auto;
     width: 100%;
+    margin-top:30px;
 }
 .hd_flex .area_flex ul{
     width:220px;
@@ -38,7 +39,7 @@ a {
     position: relative;
 }
 .hd_flex .area_flex ul li{
-    font-size:11px;
+    font-size:12px;
     font-weight: bold;
     padding: 5px 14px 5px 14px;
     display: inline-block;
@@ -61,45 +62,44 @@ a {
 /*-------header / hd_flex-//---*/
 .hd_fixed .hd_content{
     width: 1170px;
-    height: 90px;
+    padding-bottom: 120px;
     background-color:#fff;
     margin:0 auto;
     display: flex;
 }
 .hd_fixed .hd_content .hd_logo{
-    width: 150px;
-    height: 46px;
-    background-image: url(../img/logo.png);
+    width: 350px;
+    height: 80px;
+    position: relative;
+    top:-20px;
+    background-image: url(../img/logo.jpg);
     background-size:cover;
     background-position: center;
 }
 .hd_fixed .hd_content .gnb_menu{
     display: flex;
-    margin-left:250px;
+    margin-left:210px;
 }
 .hd_fixed .hd_content .gnb_menu ul{
-    width:100px;
+    width:123px;
     padding-top: 20px;
     font-weight: bold;
     font-size:15px;
+    position: relative;
 }
-/*
-.hd_fixed .hd_content .gnb_menu > ul::after{
-  width:1px;
-  height:20px;
-  background-color:rgba(0,0,0,0.4);
-  display:block;
-  content:"";
-  position:absolute;
-  top:45px;
-  transition:0.4s;
+.hd_fixed .hd_content .gnb_menu > ul::before{
+    width:0.5px;
+    height:3px;
+    background-color:rgba(255,255,0,0.4);
+    display:block;
+    content:"";
+    position:absolute;
+    top:45px;
+    transition:0.4s;
 }
-*/
-/*
-.hd_fixed .hd_content .gnb_menu > ul:hover::after{
-    width: 100%;
+.hd_fixed .hd_content .gnb_menu ul:hover::before{
+    width: 70%;
 }
-*/
 .hd_fixed >.hd_content > .gnb_menu > ul > a:hover{
     color:tan;
 }
@@ -119,3 +119,88 @@ a {
 .hd_fixed >.hd_content > .gnb_menu > ul >.dp2 > ul > li:hover{
     color:chocolate;
 }
+/*--------------header-wrap-----------------*/
+.swiper-container {
+     width: 100%;
+     height: 100%;
+}
+.swiper-slide {
+      text-align: center;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
