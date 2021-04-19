@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <script src="./js/index.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="htps://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
 </head>
 <body>
    <div class="wrap">
@@ -28,7 +32,15 @@
            </div>
            <div class="hd_fixed">
                <div class="hd_content">
-                   <div class="hd_logo"><a href="#"></a></div>
+                   <div class="hd_logo"><a href="#"><img src="./img/logo.png" alt=""></a></div>
+					<!--  모바일 로그인/회원가입-->
+                   <div class="m_gnb_menu">
+                   	 <ul>
+                   	 	<li><a href="#">로그인</a></li>
+                   	 	<li><a href="#">회원가입</a></li>
+                   	 </ul>
+                   </div>
+                   <!--  PC 로그인/회원가입-->
                    <div class="gnb_menu">
                       <ul><a href="#">BRAND</a>
                        <div class="dp2">
@@ -39,7 +51,7 @@
                            </ul>
                        </div>
                       </ul>
-                       <ul><a href="#">ESG</a>
+                      <ul><a href="#">ESG</a>
                        <div class="dp2">
                            <ul>
                                <li><a href="#">ESG경영이란?</a></li>
@@ -50,7 +62,7 @@
                            </ul>
                        </div>
                       </ul>
-                       <ul><a href="#">MENU</a>
+                      <ul><a href="#">MENU</a>
                        <div class="dp2">
                            <ul>
                                <li><a href="#">전체메뉴</a></li>
@@ -60,7 +72,7 @@
                            </ul>
                        </div>
                       </ul>
-                       <ul><a href="#">STORE</a>
+                      <ul><a href="#">STORE</a>
                        <div class="dp2">
                            <ul>
                                <li><a href="#">매장찾기</a></li>
@@ -104,45 +116,45 @@
            </div>
        </header>
        
-       <section class="header_wrap">
-           <div class="hd_slider">
-                 <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                          <div class="inner-box">
-                              <img src="./img/banner-1.jpg" alt="">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="inner-box">
-                              <img src="./img/banner-2.jpg" alt="">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="inner-box">
-                              <img src="./img/banner-3.jpg" alt="">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="inner-box">
-                              <img src="./img/banner-4.jpg" alt="">
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="inner-box">
-                              <img src="./img/banner-5.jpg" alt="">
-                          </div>
-                      </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
-                  </div>
+       <div class="main-slider-wrap">
+		  <div class="swiper-container">
+			<div class="swiper-wrapper">
+			  <div class="swiper-slide">
+				<div class="inner-box">
+				  <img src="./img/banner01.jpg" alt="">
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="inner-box">
+				  <img src="./img/banner02.jpg" alt="">
+				</div>
+			  </div>
+			 <div class="swiper-slide">
+				<div class="inner-box">
+				  <img src="./img/banner03.jpg" alt="">
+				</div>
+			  </div>
+			  <div class="swiper-slide">
+				<div class="inner-box">
+				  <img src="./img/banner04.jpg" alt="">
+				</div>
+			  </div>
+			   <div class="swiper-slide">
+				<div class="inner-box">
+				  <img src="./img/banner05.jpg" alt="">
+				</div>
+			  </div>
+			</div>	
+			
+			<div class="btn-next"></div>
+			<div class="btn-prev"></div>
+			
+			<div class="swiper-pagination">
+			  <span class="play"></span>
+			</div>
+		  </div>
+        </div>
 
-           </div>
-       </section>
    </div>
 </body>
 </html>
